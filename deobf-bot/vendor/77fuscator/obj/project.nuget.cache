@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "tWjFp1fAJ3k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\corne\\Downloads\\source\\source\\deobfuscator\\deobfuscator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\corne\\.nuget\\packages\\loretta.codeanalysis.common\\0.2.12\\loretta.codeanalysis.common.0.2.12.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\loretta.codeanalysis.lua\\0.2.12\\loretta.codeanalysis.lua.0.2.12.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\loretta.codeanalysis.lua.experimental\\0.2.12\\loretta.codeanalysis.lua.experimental.0.2.12.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0-preview.18571.3\\system.runtime.compilerservices.unsafe.4.6.0-preview.18571.3.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\system.text.encoding.codepages\\4.6.0-preview.18571.3\\system.text.encoding.codepages.4.6.0-preview.18571.3.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\tsu\\2.2.2\\tsu.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

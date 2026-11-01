@@ -1,0 +1,70 @@
+-- run status: script error: Script:1: attempt to index nil with number
+--   C:/Users/goldl/Downloads/thee-bot-main1/thee-bot-main/universal-deobf/centurion-deobfuscator/cent61_v2.harness.luau:5636
+--   Script:1
+--   Script:1
+--   C:/Users/goldl/Downloads/thee-bot-main1/thee-bot-main/universal-deobf/centurion-deobfuscator/cent61_v2.harness.luau:5641
+--   
+-- 31 statements recorded in 0.79s
+
+--@1 
+workspace:GetNumAwakeParts()
+--@1 
+local Path2D = Instance.new("Path2D")
+--@1 
+Path2D:GetControlPoints()
+--@1 
+Path2D:Destroy()
+--@1 
+Path2D:Destroy()
+--@1 
+local PhysicsService = game:GetService("PhysicsService")
+--@1 
+local Camera = Instance.new("Camera")
+--@1 
+Camera.CameraType = Enum.CameraType.Scriptable
+--@1 
+Camera:GetLargestCutoffDistance(0)
+--@1 
+Camera:GetPartsObscuringTarget(0, {})
+--@1 
+Camera:GetPartsObscuringTarget({}, 0)
+--@1 
+Camera:Interpolate(0, CFrame.new(), 1)
+--@1 
+Camera:Interpolate(CFrame.new(), false, 1)
+--@1 
+Camera:Interpolate(CFrame.new(), CFrame.new(), {})
+--@1 
+Camera:PanUnits({})
+--@1 
+Camera:ScreenPointToRay({}, 0, 0)
+--@1 
+Camera:ScreenPointToRay(0, {}, 0)
+--@1 
+Camera:ScreenPointToRay(0, 0, {})
+--@1 
+Camera:SetCameraPanMode({})
+--@1 
+Camera:SetRoll({})
+--@1 
+Camera:TiltUnits({})
+--@1 
+Camera:ViewportPointToRay({}, 0, 0)
+--@1 
+Camera:ViewportPointToRay(0, {}, 0)
+--@1 
+Camera:ViewportPointToRay(0, 0, {})
+--@1 
+Camera:WorldToScreenPoint({})
+--@1 
+Camera:WorldToViewportPoint({})
+--@1 
+Camera:ZoomToExtents({}, Vector3.new(1, 1, 1))
+--@1 
+Camera:ZoomToExtents(CFrame.new(), {})
+--@1 
+Camera:Destroy()
+--@1 
+Camera:Destroy()
+--@1 
+-- loadstring() of 14 bytes: "return 'xmoor'"

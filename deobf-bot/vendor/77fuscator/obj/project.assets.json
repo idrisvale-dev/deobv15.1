@@ -1,0 +1,433 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Loretta.CodeAnalysis.Common/0.2.12": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Loretta.CodeAnalysis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Loretta.CodeAnalysis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Loretta.CodeAnalysis.Lua/0.2.12": {
+        "type": "package",
+        "dependencies": {
+          "Loretta.CodeAnalysis.Common": "0.2.12",
+          "Tsu": "2.2.2"
+        },
+        "compile": {
+          "lib/net6.0/Loretta.CodeAnalysis.Lua.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Loretta.CodeAnalysis.Lua.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Loretta.CodeAnalysis.Lua.Experimental/0.2.12": {
+        "type": "package",
+        "dependencies": {
+          "Loretta.CodeAnalysis.Lua": "0.2.12",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/net6.0/Loretta.CodeAnalysis.Lua.Experimental.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Loretta.CodeAnalysis.Lua.Experimental.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0-preview.18571.3": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.6.0-preview.18571.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview.18571.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Tsu/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Tsu.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Tsu.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Loretta.CodeAnalysis.Common/0.2.12": {
+      "sha512": "kMiLfXUy/vf6+ssJvVuDytYnuz7jx/FF+nPDooJH3SQUkCD4PjlFXW7lcaqMMEWMa7vFkLQq4ZN8B9T7FEl17Q==",
+      "type": "package",
+      "path": "loretta.codeanalysis.common/0.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Loretta.CodeAnalysis.dll",
+        "lib/net6.0/Loretta.CodeAnalysis.xml",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.dll",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.xml",
+        "loretta.codeanalysis.common.0.2.12.nupkg.sha512",
+        "loretta.codeanalysis.common.nuspec"
+      ]
+    },
+    "Loretta.CodeAnalysis.Lua/0.2.12": {
+      "sha512": "nRPKij/sNCZLXOaalxuH/fB0qrlYpHonX0BXfLwhDKIH1LN1JCSnTWLXCPASEBWErY5p0KPSKOD9sjVhKnGXiQ==",
+      "type": "package",
+      "path": "loretta.codeanalysis.lua/0.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Loretta.CodeAnalysis.Lua.dll",
+        "lib/net6.0/Loretta.CodeAnalysis.Lua.xml",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.Lua.dll",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.Lua.xml",
+        "loretta.codeanalysis.lua.0.2.12.nupkg.sha512",
+        "loretta.codeanalysis.lua.nuspec"
+      ]
+    },
+    "Loretta.CodeAnalysis.Lua.Experimental/0.2.12": {
+      "sha512": "xZcmIEnaCkl8LQcAYm2JAw2YuBdGLvR9KDq3sYRD7NKMbdMkEL7rRwjSqloDj++PwqZ02m1HHMk/LeI01+Ng0Q==",
+      "type": "package",
+      "path": "loretta.codeanalysis.lua.experimental/0.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Loretta.CodeAnalysis.Lua.Experimental.dll",
+        "lib/net6.0/Loretta.CodeAnalysis.Lua.Experimental.xml",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.Lua.Experimental.dll",
+        "lib/netstandard2.0/Loretta.CodeAnalysis.Lua.Experimental.xml",
+        "loretta.codeanalysis.lua.experimental.0.2.12.nupkg.sha512",
+        "loretta.codeanalysis.lua.experimental.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0-preview.18571.3": {
+      "sha512": "RlKzUOKfzOvQsexDiEai+zgs5ZDM75D9awG+hPrAPq6iChW2opzjPruDwrhVq1n0HrCPbTfvrL6A6nL2+rDpnA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0-preview.18571.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.6.0-preview.18571.3.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.6.0-preview.18571.3": {
+      "sha512": "MYFHOtbSfHdWXtG8gqqfFdEfy6mkIGqyIeI1H8U5ChlSx5/VW595B7JAtbX942lYUHzC6CXCcoILD7scN05c9Q==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.6.0-preview.18571.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.6.0-preview.18571.3.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Tsu/2.2.2": {
+      "sha512": "l6svA84RD5MYyZgLFOI0Tj1ssEkcNUi0Q13wfH7VBJxd17o+YL1sgdLEyu3kkBBjvJIgOgszZUPR0vCrZOgBKg==",
+      "type": "package",
+      "path": "tsu/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Tsu.dll",
+        "lib/net461/Tsu.xml",
+        "lib/net47/Tsu.dll",
+        "lib/net47/Tsu.xml",
+        "lib/net5.0/Tsu.dll",
+        "lib/net5.0/Tsu.xml",
+        "lib/netcoreapp2.1/Tsu.dll",
+        "lib/netcoreapp2.1/Tsu.xml",
+        "lib/netcoreapp3.1/Tsu.dll",
+        "lib/netcoreapp3.1/Tsu.xml",
+        "lib/netstandard2.0/Tsu.dll",
+        "lib/netstandard2.0/Tsu.xml",
+        "lib/netstandard2.1/Tsu.dll",
+        "lib/netstandard2.1/Tsu.xml",
+        "tsu.2.2.2.nupkg.sha512",
+        "tsu.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Loretta.CodeAnalysis.Common >= 0.2.12",
+      "Loretta.CodeAnalysis.Lua >= 0.2.12",
+      "Loretta.CodeAnalysis.Lua.Experimental >= 0.2.12",
+      "System.Text.Encoding.CodePages >= 4.6.0-preview.18571.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\corne\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\corne\\Downloads\\source\\source\\deobfuscator\\deobfuscator.csproj",
+      "projectName": "deobfuscator",
+      "projectPath": "C:\\Users\\corne\\Downloads\\source\\source\\deobfuscator\\deobfuscator.csproj",
+      "packagesPath": "C:\\Users\\corne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\corne\\Downloads\\source\\source\\deobfuscator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\corne\\Downloads\\source\\source\\deobfuscator\\NuGet.Config",
+        "C:\\Users\\corne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Loretta.CodeAnalysis.Common": {
+            "target": "Package",
+            "version": "[0.2.12, )"
+          },
+          "Loretta.CodeAnalysis.Lua": {
+            "target": "Package",
+            "version": "[0.2.12, )"
+          },
+          "Loretta.CodeAnalysis.Lua.Experimental": {
+            "target": "Package",
+            "version": "[0.2.12, )"
+          },
+          "System.Text.Encoding.CodePages": {
+            "target": "Package",
+            "version": "[4.6.0-preview.18571.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

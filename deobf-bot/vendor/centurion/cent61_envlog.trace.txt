@@ -1,0 +1,47 @@
+-- run status: script error: Script:1: buffer access out of bounds
+--   C:/Users/goldl/Downloads/thee-bot-main1/thee-bot-main/universal-deobf/centurion-deobfuscator/cent61_envlog.harness.luau:5483
+--   Script:1
+--   Script:1
+--   Script:1
+--   C:/Users/goldl/Downloads/thee-bot-main1/thee-bot-main/universal-deobf/centurion-deobfuscator/cent61_envlog.harness.luau:5488
+--   
+-- 18 statements recorded in 1.37s
+
+--@1 
+local Camera = Instance.new("Camera")
+--@1 
+Camera:Destroy()
+--@1 
+Camera:Destroy()
+--@1 
+local TextService = game:GetService("TextService")
+--@1 
+TextService:GetTextSize(nil, 18, Enum.Font.SourceSans, Vector2.new(100, 100))
+--@1 
+TextService:GetTextSize("x", {}, Enum.Font.SourceSans, Vector2.new(100, 100))
+--@1 
+TextService:GetTextSize("x", 18, {}, Vector2.new(100, 100))
+--@1 
+TextService:GetTextSize("x", 18, Enum.Font.SourceSans, {})
+--@1 
+task.spawn(nil --[[thread]])
+--@1 
+local MarketplaceService = game:GetService("MarketplaceService")
+--@2 
+task.spawn(function(...)
+end)
+--@2 
+task.defer(function(...)
+end)
+--@1 
+local ScreenGui = Instance.new("ScreenGui")
+--@1 
+local Path2D = Instance.new("Path2D")
+--@1 
+Path2D.Parent = ScreenGui
+--@1 
+Path2D:Destroy()
+--@1 
+ScreenGui:Destroy()
+--@1 
+-- loadstring() of 14 bytes: "return 'uugfc'"
